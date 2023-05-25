@@ -12,7 +12,7 @@ Practice with basic auth and bearer auth.
 
 ## Links and Resources
 
-[GitHub Actions]()
+[GitHub Actions](https://github.com/Justin-Mathieu/bearer-auth/actions)
 [back-end prod url](https://bearer-auth-yflz.onrender.com)
 
 ## Collaborators
