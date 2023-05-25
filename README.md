@@ -2,21 +2,18 @@
 
 401d53 Lab 7 bearer auth
 
-### Project: Basic api server
-
-
+## Project: Bearer-Auth
 
 ### Author: Justin Mathieu
 
-
 ## Problem Domain
 
-Practice with basic server routing and testing.
+Practice with basic auth and bearer auth.
 
 ## Links and Resources
 
 [GitHub Actions]()
-[back-end prod url]()
+[back-end prod url](https://bearer-auth-yflz.onrender.com)
 
 ## Collaborators
 
@@ -26,6 +23,7 @@ Practice with basic server routing and testing.
 
 - Port variable
 - Connection string for database.
+- Secret for JWT.
 
 ## How to initialize/run your application (where applicable)
 
@@ -33,15 +31,17 @@ Practice with basic server routing and testing.
 - Run npm i in terminal
 - Run nodemon in terminal
 
-
 ## Routes
 
-POST: /signin - Authenicates user with password.
-POST : /signup - Creates user in database.
+POST: /signin - Authenicates user with password.(Basic auth)
+POST: /signup - Creates user in database.
+GET: /users   - If valid JWT token gets all users.(Bearer auth)
+GET: /secret  - Validates jwt to access secret area.(Bearer auth)
 
 ## Tests
 
 - Run the command npm test with dependencies installed.
 
 ## UML
-![UML]()
+
+![UML](./assets/Lab07UML.png)
